@@ -1,0 +1,101 @@
+teamtracker_url: 'http://localhost:3000'
+gh_url: '/listeners/github/webhook'
+slack_url: '/listeners/slack/webhook'
+users:
+  - name: John Doe
+    email: johndoe@mail.com
+  - name: Mary Ann
+    email: maryann@mail.com
+  - name: Mr. Potato Head
+    email: mrpotatohead@mail.com
+  - name: Bon Knopfler
+    email: bonknopfler@mail.com
+  - name: Mark Jovi
+    email: markjovi@mail.com
+  - name: Cindy Tyler
+    email: cindytyler@mail.com
+  - name: Bonnie Lauper
+    email: bonnielauper@mail.com
+actions:
+  - Fix
+  - Finish
+  - Complete
+  - Add
+  - Refactor
+objects:
+  - Client
+  - Login
+  - Post
+  - Friends
+  - Settings
+places:
+  - Model
+  - View
+  - Controller
+  - CRUD
+gh:
+  organization: FakeOrg
+  logins:
+  - name: johndoe
+    emails:
+      - johndoe@mail.com
+  - name: maryann
+    emails: 
+      - maryann@mail.com
+  - name: mrpotatohead
+    emails:
+      - mrpotatohead@mail.com
+  - name: bonknopfler
+    emails: 
+      - bonknopfler@mail.com
+  - name: markjovi
+    emails:
+      - markjovi@mail.com
+  - name: cindytyler
+    emails: 
+      - cindytyler@mail.com
+  - name: bonnielauper
+    emails:
+      - bonnielauper@mail.com
+  projects:
+    - Facekut
+    - Gitwitter
+    - Linkemail
+slack:
+  users:
+    - name: johndoe
+      id: 8CFB6OMSO0
+      email: johndoe@mail.com
+    - name: maryann
+      id: XLQLNOJGA9
+      email: maryann@mail.com
+    - name: mrpotatohead
+      id: 0EPTTIU6EX
+      email: mrpotatohead@mail.com
+    - name: bonknopfler
+      id: EIPRFNCVQ8
+      email: bonknopfler@mail.com
+    - name: markjovi
+      id: QVC232VSVQ
+      email: markjovi@mail.com
+    - name: cindytyler
+      id: 0WSEVWFB24
+      email: cindytyler
+    - name: bonnielauper
+      id: 471B234RB3
+      email: bonnielauper
+  channels:
+    - name: general
+      id: KMZNF4FKF6
+    - name: duvidas
+      id: XFI1DO68HF
+    - name: links-interessantes
+      id: XU4C30XFSA
+    - name: trabalhando-em
+      id: RFE7IZM7US
+    - name: facekut
+      id: LWG2I1NU29
+    - name: gitwitter
+      id: R15NFPXD7I
+    - name: linkemail
+      id: GXRE6T63QP
