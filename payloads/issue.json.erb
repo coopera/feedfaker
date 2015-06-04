@@ -1,0 +1,36 @@
+{
+  "action": "<%= locals[:action] %>",
+  "issue": {
+    "number": <%= locals[:number] %>,
+    "title": "<%= locals[:title] %>",
+    "user": {
+      "login": "<%= locals[:user][:login] %>",
+      "id": "<%= locals[:user][:id] %>",
+      "avatar_url": "<%= locals[:user][:avatar_url] %>",
+      "gravatar_id": "",
+      "type": "User",
+      "site_admin": false
+    }
+    "labels": [
+      {
+        "url": "https://api.github.com/repos/baxterthehacker/public-repo/labels/bug",
+        "name": "bug",
+        "color": "fc2929"
+      }
+    ],
+    "state": "<%= locals[:action] == "opened" ? "open" : "closed" %>",
+    "locked": false,
+    "assignee": null,
+    "milestone": null,
+    "comments": 0,
+    "created_at": "<%= locals[:created_at] %>",
+    "updated_at": null,
+    "closed_at": null,
+    "body": "<%= locals[:body] %>"
+  },
+  "repository": {
+    "id": <%= locals[:repository][:id] %>,
+    "full_name": "<%= locals[:repository][:full_name] %>",
+    "private": false
+  }
+}

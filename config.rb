@@ -12,7 +12,6 @@ class Config
 
   def self.[](key)
     @@instance ||= Config.new
-    puts @@instance.config
     @@instance.config[key]
   end
 end

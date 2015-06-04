@@ -33,6 +33,10 @@ places:
   - View
   - Controller
   - CRUD
+projects:
+  - Facekut
+  - Gitwitter
+  - Linkemail
 gh:
   organization: FakeOrg
   logins:
@@ -57,10 +61,6 @@ gh:
   - name: bonnielauper
     emails:
       - bonnielauper@mail.com
-  projects:
-    - Facekut
-    - Gitwitter
-    - Linkemail
 slack:
   users:
     - name: johndoe
